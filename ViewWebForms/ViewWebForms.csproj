@@ -74,11 +74,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="buscarproduto.aspx" />
+    <Content Include="cadastrarprodutos.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="buscarproduto.aspx.cs">
+      <DependentUpon>buscarproduto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buscarproduto.aspx.designer.cs">
+      <DependentUpon>buscarproduto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrarprodutos.aspx.cs">
+      <DependentUpon>cadastrarprodutos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastrarprodutos.aspx.designer.cs">
+      <DependentUpon>cadastrarprodutos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

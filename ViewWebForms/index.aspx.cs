@@ -16,10 +16,10 @@ namespace ViewWebForms
             if (!IsPostBack)
             {
                 ProdutoManager produtoManager = new ProdutoManager();
-                // Chame um método para obter a lista de produtos da camada Manager
-                List<Produto> produtos = produtoManager.GetAllProdutos(); // Supondo que você tenha uma classe ProdutoManager
+                // Método que mostra todos os produtos
+                List<Produto> produtos = produtoManager.GetAllProdutos();
 
-                // Associe a lista de produtos ao GridView
+                //Os produtos serão mostrados em uma GridView
                 GridViewProdutos.DataSource = produtos;
                 GridViewProdutos.DataBind();
             }
