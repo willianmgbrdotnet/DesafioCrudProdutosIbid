@@ -76,6 +76,7 @@
   <ItemGroup>
     <Content Include="buscarproduto.aspx" />
     <Content Include="cadastrarprodutos.aspx" />
+    <Content Include="excluirproduto.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
@@ -95,6 +96,13 @@
     <Compile Include="cadastrarprodutos.aspx.designer.cs">
       <DependentUpon>cadastrarprodutos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="excluirproduto.aspx.cs">
+      <DependentUpon>excluirproduto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="excluirproduto.aspx.designer.cs">
+      <DependentUpon>excluirproduto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -108,6 +116,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

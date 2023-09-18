@@ -10,10 +10,10 @@
     <h1>Cadastre um novo produto</h1>
     <form id="form1" runat="server">
         <label for="nome_produto">Nome do Produto:</label><br />
-        <asp:TextBox ID="nome_produto" runat="server" required></asp:TextBox><br /><br />
+        <asp:TextBox ID="nome_produto" runat="server" required size="100"></asp:TextBox><br /><br />
 
         <label for="categoria">Categoria:</label><br />
-        <asp:TextBox ID="categoria" runat="server" required></asp:TextBox><br /><br />
+        <asp:TextBox ID="categoria" runat="server" required size="100"></asp:TextBox><br /><br />
 
         <label for="quantidade">Quantidade:</label><br />
         <asp:TextBox ID="quantidade" runat="server" required></asp:TextBox><br /><br />

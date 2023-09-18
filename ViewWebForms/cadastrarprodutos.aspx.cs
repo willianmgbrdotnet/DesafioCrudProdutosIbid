@@ -32,8 +32,17 @@ namespace ViewWebForms
             produtoManager.CreateProduto(novoProduto);
 
             // Caso o produto seja cadastrado com sucesso. Voltará automaticamente para a index.
-            //Apenas para verificação de sucesso. Esta função poderá ser excluída.
+            //Apenas para verificação de sucesso. Este método pode ser trocado por 'LimparCampos'.
             Response.Redirect("index.aspx");
+
+            //LimparCampos();
+        }
+
+        private void LimparCampos()
+        {
+            nome_produto.Text = string.Empty;
+            categoria.Text = string.Empty;
+            quantidade.Text = string.Empty;
         }
 
     }
